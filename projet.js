@@ -1,7 +1,7 @@
-var h1 = document.getElementById("h1");
-var value = h1.value;
+var titre = document.getElementById("titre");
+var value = titre.value;
 
-function textSizing (value) {
+function textSizing(value) {
     if value == false {
         h1.style.fontSize = "50px";
         value = "true";
