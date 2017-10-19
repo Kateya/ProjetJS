@@ -1,0 +1,10 @@
+h1 {
+    font-size: 30px;
+}
+
+div #rectangle {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
