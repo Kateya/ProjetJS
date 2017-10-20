@@ -5,29 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ProjetJS</title>
-    <style type = "text/css">
-        h1 {
-            font-size: 30px;
-        }   
-        #rectangle {
-                background: blue;
-                width: 100px;
-                height: 100px;
-                margin: auto;
-        }
-    </style>
+
 </head>
-<body>
+
+<body style="width:90%; margin:auto;" onkeydown="if (event.keyCode == 38) up();">
     
-    <h1 value = "true" onclick="textSizing(value);" id="titre">Projet JS</h1>
+    <h1 id="titre1" style="font-size:30px; text-align:center;" onclick="texte();">Cliquez sur moi...</h1>
         
-    <p>Cliquez sur mon titre pour avoir une surprise</p>
-    
     <section>
-        <div id="rectangle"></div>
-    </section>
+        <div class="boutons" style="text-align:center;">
+            <button onclick="augmenter();">1</button>
+            <button onclick="green();">2</button>
+            <button onclick="blue();">3</button>
+            <button onclick="hide();">4</button>
+            <button onclick="block();">5</button>
+        </div>
+        <br><br>
+        <div id="rectangle" style="background:#1ABDF2; width:100px; height:100px; margin:auto; display:block; margin-top:100px;"></div>
     
+    </section>
+
     <script src="projet.js"></script>
 </body>
 </html>
-
